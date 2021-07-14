@@ -1229,8 +1229,13 @@
 }
  .about .about-box figure {
      margin: 0;
+     overflow: hidden;
 }
- .about .about-box figure img {
+
+.about .about-box video{
+    width: 100%;
+}
+ .row .col-md-12 .about-box img {
     width: 100%;
 }
 /** end about section **/
