@@ -182,7 +182,7 @@
      position: relative;
      margin-bottom: 50px;
 }
- .main_heading h2 {
+ .main_heading h1 {
      padding: 0;
      font-size: 48px;
      line-height: 60px;
@@ -193,14 +193,14 @@
      border-left: solid #38c8a8 10px;
      padding-left: 15px;
 }
- .main_heading h2 strong {
+ .main_heading h1 strong {
      background: #38c8a8;
      color: #fff;
      font-weight: 600;
      padding: 0 15px;
      line-height: 68px;
 }
- .white_heading_main h2 {
+ .white_heading_main h1 {
      color: #fff;
 }
  .small_main_heading {
@@ -210,7 +210,7 @@
      border-bottom: solid rgba(0, 0, 0, 0.07) 1px;
      margin-bottom: 25px;
 }
- .small_main_heading h2 {
+ .small_main_heading h1 {
      padding: 2px 0 20px 0;
      color: #114c7d;
      font-weight: 400;
@@ -220,7 +220,7 @@
      padding-left: 55px;
      letter-spacing: -0.5px;
 }
- .small_main_heading h2 strong {
+ .small_main_heading h1 strong {
      color: #38c8a8;
      font-weight: 600;
 }
@@ -515,7 +515,7 @@
   bottom: 270px;
 }
 
-.carousel-caption h5 {
+.carousel-caption h1 {
   font-size: 45px;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -944,7 +944,7 @@ color: #f00;
      padding-top: 90px;
      margin-top: 90px;
 }
- .footer h2 {
+ .footer h1 {
     color: #fff;
      font-size: 40px;
      line-height: 40px;
