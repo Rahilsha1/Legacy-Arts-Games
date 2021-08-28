@@ -57,9 +57,11 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
-            padding: 50px 100px ;
-            margin-top: 50px;
-
+            width: 100%;
+            height: auto;
+            padding-top: 180px;
+            padding-right: 100px;
+            padding-left: 100px;
         }
 
         .main-text{
@@ -71,6 +73,7 @@
 
 
         }
+
 
         .main-text h1{
             font-size: 28px;
@@ -95,6 +98,7 @@
             margin-top: 60px;
 
         }
+        
 
         .main-text a:before{
             content: ' ';
@@ -172,6 +176,62 @@
             top: 42%;
             left: 0;
         }
+
+        .navbar .navbar-brand{
+            font-size: 30px;
+            color: gold;
+        }
+
+        @media (max-width: 850px) {
+            .navbar:not(.top-nav-collapse) {
+                background: #1C2331!important;
+            }
+        }
+        @media only screen and (max-width:768px)
+        {
+            .navbar
+            {
+                background-color:#1C2331
+            }
+            .main-content{
+                display: block;
+                width: 100%;
+                height: auto;
+            }
+            .main-text{
+                width: 100%;
+            }
+            .main-text h1
+            {
+                width:  200px;
+                font-size: 28px;
+                letter-spacing: 5px;
+                line-height: 50px;
+            }
+            .main-img{
+                width: 200px;
+                height: 200px;
+                background: none;
+                padding-top: 50px;
+            }
+
+            .main-email{
+                top: 70%;
+                left: 50%;
+                height: 50px;
+                width: 50px;
+            }
+
+            .main-social{
+                width: 170px;
+                height: 170px;
+            }
+
+            .main-social img{
+                width: 50px;
+                height: 50px;
+            }
+        }
     </style>
 
 
@@ -190,32 +250,54 @@
 
 
 
-<!-- ***********************  HEADER ********************** -->
-   
 
-   <nav class="navbar navbar-expand-custom navbar-mainbg">
-        <a class="navbar-brand navbar-logo" href="./index.html">Legacy Art's</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fa fa-bars text-white" aria-hidden="true"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <div class="hori-selector"><div class="left"></div><div class="right"></div></div>
-                <li class="nav-item active">
-                    <a class="nav-link" href="./index.html"><i class="fa fa-home" aria-hidden="true"></i>HOME</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./games.html"><i class="fa fa-gamepad" aria-hidden="true"></i>GAMES</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./video.html"><i class="fa fa-video-camera" aria-hidden="true"></i>VIDEOS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./contact.html"><i class="fa fa-phone-square" aria-hidden="true"></i>CONTACT</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+
+<!-- ***********************  HEADER ********************** -->
+   <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+    <div class="container">
+
+      <!-- Brand -->
+      <a class="navbar-brand" href="./index.html">
+        Legacy Art's
+      </a>
+
+      <!-- Collapse -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Links -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <!-- Left -->
+        <ul class="navbar-nav mr-auto">
+          
+          
+        </ul>
+
+        <!-- Right -->
+        <ul class="navbar-nav nav-flex-icons">
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html" style="color: greenyellow; font-size: 20px;">Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./games.html"style="color: gold; font-size: 20px;">GAMES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./video.html"style="color: gold; font-size: 20px;">VIDEO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html"style="color: gold; font-size: 20px;">CONTACT</a>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+  </nav>
+  <!-- Navbar -->
 
 
 <!-- ***********************  HEADER ********************** -->
