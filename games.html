@@ -25,7 +25,25 @@
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
 
+    <style type="text/css">
+        .navbar .navbar-brand{
+            font-size: 30px;
+            color: gold;
+        }
 
+        @media (max-width: 850px) {
+            .navbar:not(.top-nav-collapse) {
+                background: #1C2331!important;
+            }
+        }
+        @media only screen and (max-width:768px)
+        {
+            .navbar
+            {
+                background-color:#1C2331
+            }
+        }
+    </style>
 
 </head>
 <body>
@@ -35,32 +53,56 @@
     </div>
     <!-- end loader -->
 
-    <!-- header -->
-   <nav class="navbar navbar-expand-custom navbar-mainbg">
-        <a class="navbar-brand navbar-logo" href="./index.html">Legacy Art's</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fa fa-bars text-white" aria-hidden="true"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <div class="hori-selector"><div class="left"></div><div class="right"></div></div>
-                <li class="nav-item">
-                    <a class="nav-link" href="./index.html"><i class="fa fa-home" aria-hidden="true"></i>HOME</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="./games.html"><i class="fa fa-gamepad" aria-hidden="true"></i>GAMES</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./video.html"><i class="fa fa-video-camera" aria-hidden="true"></i>VIDEOS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./contact.html"><i class="fa fa-phone-square" aria-hidden="true"></i>CONTACT</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+
+<!-- ***********************  HEADER ********************** -->
+   <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+    <div class="container">
+
+      <!-- Brand -->
+      <a class="navbar-brand" href="./index.html">
+        Legacy Art's
+      </a>
+
+      <!-- Collapse -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Links -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <!-- Left -->
+        <ul class="navbar-nav mr-auto">
+          
+          
+        </ul>
+
+        <!-- Right -->
+        <ul class="navbar-nav nav-flex-icons">
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html" style="color: greenyellow; font-size: 20px;">Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./games.html"style="color: gold; font-size: 20px;">GAMES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./video.html"style="color: gold; font-size: 20px;">VIDEO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html"style="color: gold; font-size: 20px;">CONTACT</a>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+  </nav>
+  <!-- Navbar -->
 
 
+<!-- ***********************  HEADER ********************** -->
 
 <section>
     <h1 style="font-weight: 500; text-shadow: 5px; text-align: center; padding: 10px; margin-top: 20px; font-size: 80px;">PLAY FREE GAMES ONLINE</h1>
